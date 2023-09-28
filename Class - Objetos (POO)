@@ -1,0 +1,55 @@
+O que é um objeto?
+Algo material ou asbtrata que pode ser percebida pelos sentindos e descritiva por meio das suas caracteristicas, compor-
+tamentos e estado atual.
+
+Class -> molde (cria objetos)
+
+Para uma classe, deve sempre responder três perguntas:
+ex: Caneta
+1 - Algo que eu tenho? (Atributo -> dados, informações e caracteristicas)
+Modelo, cor, ponta, carga e tampa
+
+2- Algo que eu faço? (Método -> função)
+Escrever, rabiscar, pintar e tampar e destampar
+
+3 - Como eu estou agora? (Estado -> resultado)
+50% da carga, escrevendo e destampada
+
+Para cria um objeto, antes tem que defenir uma classe (planejamento)
+Class -> Define os atributos e metodos comuns, que serao compartilhado por um objeto
+Objeto -> É a instancia (algo preste acontecer) de uma classe
+
+POO - Programação orientada a objeto
+-> Ter um conceito sobre tudo, representa cada elemento do mundo real para um objeto
+-> Uma união de estados e comportamento (Atributos, metodos e estados)
+
+Encapsulamento -> Proteção para os atributos
+Ajuda a esconder partes do codigo, para não ter alteração de valores
+Na POO classica, tera modificadores de acesso (metodos e atributos publicos) aonde utiliza a palavra 'public' para modi-
+ficar o acesso, 'protected' e 'private' para proteger.
+Public -> Metodo e atributo que podem ser acessado dentro e fora da classe.
+Protected -> São atributos que podem ser acessados apenas dentro da classe, ou das 'filhas' (herança)
+Private -> Atributo ou metodo, só esta disponivel dentro da classe
+No python para proteger, voce utiliza:
+_(underline) protected (mais fraco, ainda da pra alterar valores, porem não te mostra a variavel, chamando pela
+instancia)
+__(dois underline) private (mais forte, ao tentar modificar a variavel, ele cria outra variavel)
+Todo programador em python, ao ver um 'underline' na variavel, deve saber que não é pra acessar!
+
+Associação - Uma classe pode ser associada a outra! Mas nenhuma delas irá depender da outra!
+Dentro do consultor cria-se um atributo que recebera a instancia de uma outra classe! Assim toda a classe é 'importada'
+para dentro desse atributo, podendo ser utilizar os metodos dessa classe!
+    -> Agregação - Uma classe, que irá depender de outra classe para funcionar adquadamente, usando uma classe como par-
+te de si. EX: existe uma classe Carro e outra classe Roda, as duas existe sozinhas, porém não irá funcionar adquadamente
+
+=====================================================================================================================
+
+Decorador -> Atribuir uma nova funcionalidade para alguma outra função, sem a decodificar
+Uma função que recebe uma função como parametro. Ele cria uma função, essa função é o que o decorador faça e executa a
+função parametro e retorna a função criada.
+=====================================================================================================================
+
+Escrita para significar cada class
+PascalCase -> Todas as palavras inciam com letra maiuscula e nada é usado para separa-las (Para classes)
+make_case -> Usado pra definir qualquer coisa que não for uma classe. Todas as letras serão minusculas e separadas por
+underline.
